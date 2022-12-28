@@ -1,9 +1,9 @@
 mkdir out
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 git clone https://github.com/jerryji1993/DNABERT
-python3 -m pip install --editable DNABERT/.
-python3 data_pre.py
-python3 ./run_pretrain.py \
+python -m pip install --editable DNABERT/.
+python data_pre.py
+python ./run_pretrain.py \
     --output_dir=./out/ \
     --model_type=dna \
     --tokenizer_name=dna6 \

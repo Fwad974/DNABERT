@@ -1,0 +1,7 @@
+{
+"train_sample_ratio":0.01,
+"test_sample_ratio":0.002,
+"train":[["pKY-97-1_S3_L001_R1_001-001.fastq","fastq"]],
+"test":[["pKY-97-1_S3_L001_R1_001-001.fastq","fastq"]]
+
+}
